@@ -1,6 +1,6 @@
 ---
 title: "Enterprise Blockchain"
-parent: What's evan?
+parent: What's EPN?
 nav_order: 1300
 permalink: /docs/whats_epn/enterprisechain.html
 ---
@@ -21,7 +21,7 @@ This only makes it possible to see that a transaction took place, but not what h
 
 Distributed storage poses great advantages over conventional storage solutions, but doesn’t present a viable alternative for enterprises, as storage providers are anonymous.
 
-Evan.network addresses this issue, and allows enterprises to benefit from encrypted distributed storage, known as the Interplanetary File System (IPFS), which is made available to the entire public consortium on Evan.
+European Public Network addresses this issue, and allows enterprises to benefit from encrypted distributed storage, known as the Interplanetary File System (IPFS), which is made available to the entire public consortium on Evan.
 
 
 With no single point of failure and full encryption of all data by default, the advantages of blockchain based distributed file systems are introduced to enterprise users.

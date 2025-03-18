@@ -1,6 +1,6 @@
 ---
 title: "Core features"
-parent: What's evan?
+parent: What's EPN?
 nav_order: 1200
 permalink: /docs/whats_epn/corefeatures.html
 ---

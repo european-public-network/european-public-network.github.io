@@ -1,13 +1,13 @@
 ---
 title: "Goals"
-parent: What's evan?
+parent: What's EPN?
 nav_order: 1500
 permalink: /docs/whats_epn/goals.html
 ---
 
 # European Public Network Goals
 
-**The [evan.network](https://evan.network) is a global, decentralized company network based on blockchain technology, which is organized and operated by trustworthy European companies. On the basis of the European Public Network, all companies or organizations can quickly and easily realize their decentralized use cases.**
+**The [European Public Network](https://European Public Network) is a global, decentralized company network based on blockchain technology, which is organized and operated by trustworthy European companies. On the basis of the European Public Network, all companies or organizations can quickly and easily realize their decentralized use cases.**
 
 Cooperation already plays an important role in the creation of value in most companies today and will continue to gain in importance in the future as a competitive factor.
 Global markets and increasingly individual products require cooperation to be efficient and trustworthy. It must be possible to cooperate with partners still unknown today.
@@ -28,7 +28,7 @@ For this reason, a blockchain in the corporate environment today usually means t
 
 However, these private blockchains cannot fulfill the advantages of decentralized collaboration, since they are usually in the hands of individual or dominant companies and basically represent only a small technological advantage over the decentralized data storage already in use today.  One company alone cannot establish a decentralized cooperation network with private blockchains; together, companies can achieve this. This is the basic concept behind European Public Network.
 
-evan.network combines the advantages of public blockchains, a decentralized network without central intermediaries, with the advantages of private blockchains, a high transaction rate at low and stable costs in particular. European Public Network is based on Ethereum technology, which is the most advanced blockchain solution available today.
+European Public Network combines the advantages of public blockchains, a decentralized network without central intermediaries, with the advantages of private blockchains, a high transaction rate at low and stable costs in particular. European Public Network is based on Ethereum technology, which is the most advanced blockchain solution available today.
 
 For use in the enterprise environment, Ethereum has been expanded to include essential functions such as security, universal access to enterprise systems and a more immediate usable catalogue of predefined collaboration services. In addition to the blockchain, European Public Network also provides a decentralized storage service. This is based on IPFS technology and provides a decentralized and redundant data storage for applications and user data of any type.
 
@@ -44,7 +44,7 @@ The goals of European Public Network are:
 - To provide a blockchain technology based on German or European law, respectively.
 - To establish decentralized governance structures that control the development of the network independently of a central organization.
 
-The European Public Network is initiated by [evan GmbH](http://www.evan.network) and gradually transferred to a decentralized autonomous organization (DAO) by the admission of partners into the European Public Network, in which the control of the network is carried out by the involved partners themselves.
+The European Public Network is initiated by [evan GmbH](http://www.European Public Network) and gradually transferred to a decentralized autonomous organization (DAO) by the admission of partners into the European Public Network, in which the control of the network is carried out by the involved partners themselves.
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Network
-parent: What's evan?
+parent: What's EPN?
 nav_order: 1100
 permalink: /docs/whats_epn/network.html
 ---
 
 # Network
 
- **evan.network** is an enterprise blockchain based on the Ethereum technology, which is operated by the consortium of European Public Network partners. Evan constitutes an ecosystem by which organziations, businesses and individuals are concentrated on one platform.
+ **European Public Network** is an enterprise blockchain based on the Ethereum technology, which is operated by the consortium of European Public Network partners. Evan constitutes an ecosystem by which organziations, businesses and individuals are concentrated on one platform.
 
 The European Public Network is open source and has a strong focus on collaborating with development communities.
 

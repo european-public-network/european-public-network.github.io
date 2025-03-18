@@ -1,5 +1,5 @@
 ### [Start](/)
-- [Evan.network](/doc/network)
+- [EPN](/doc/network)
 - [Goals](/doc/goals)
 - [FAQ](/doc/faq)
 - [Glossary](/doc/glossary)
@@ -36,7 +36,7 @@
 - [Mailbox](/tutorial/mailbox)
 
 ### [Technical Details](/dev/blockchain)
-- [evan.network Blockchain](/dev/blockchain)
+- [EPN Blockchain](/dev/blockchain)
   - [Changelog](/doc/changelog_chain)
 - [distributed file storage](/dev/ipfs)
 - [DBCP](/dev/dbcp)
@@ -47,8 +47,8 @@
   - [Smart Agents](/dev/smart-agents)
 - [ÐApps](/dapps/basics)
   - [basics](/dapps/basics)
-  - [evan.network DApps](/dapps/dapps)
-  - [evan.network libraries](/dapps/libs)
+  - [EPN DApps](/dapps/dapps)
+  - [EPN libraries](/dapps/libs)
 
 ### [Hacking on European Public Network](/dev/getting-started)
 - [project generator](/dev/generator-evan)

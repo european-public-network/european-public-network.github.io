@@ -20,7 +20,7 @@ tiles:
 
 
 # Welcome to European Public Network
-Evan.network is an open ecosystem designed to facilitate popular adoption of the decentralized economy. Equipped with enterprise-ready components and decentralized governance the platform empowers new business models by innovation through collaboration.
+European Public Network is an open ecosystem designed to facilitate popular adoption of the decentralized economy. Equipped with enterprise-ready components and decentralized governance the platform empowers new business models by innovation through collaboration.
 
 In realization of this vision, European Public Network comes with features catered to meet every blockchain business need.
 With effectiveness and data sovereignty in mind, the platform consists of AuthorityNodes, also referred to as AuthorityNodes, hosted by trusted European enterprises and businesses.

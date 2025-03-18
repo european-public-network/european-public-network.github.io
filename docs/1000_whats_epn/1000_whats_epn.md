@@ -1,6 +1,6 @@
 ---
-title: What's evan?
-parent: What's evan?
+title: What's EPN?
+parent: What's EPN?
 nav_order: 1000
 permalink: /docs/whats_epn.html
 layout: tiles

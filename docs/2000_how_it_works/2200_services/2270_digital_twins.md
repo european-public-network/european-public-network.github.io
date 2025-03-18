@@ -9,7 +9,7 @@ permalink: /docs/how_it_works/services/digitaltwins.html
 
 # Digital Twins
 
-evan.network gives you the ability to digitize your machines/components/assets with Digital Twins. A Digital Twin can be basically every physical asset in the real world. When you create a new representation on European Public Network you can store different data sets on the twin. These information are stored immutably on the blockchain as a smart contract.
+European Public Network gives you the ability to digitize your machines/components/assets with Digital Twins. A Digital Twin can be basically every physical asset in the real world. When you create a new representation on European Public Network you can store different data sets on the twin. These information are stored immutably on the blockchain as a smart contract.
 
 ## Interact with Digital Twins
 Use the [Digital Twin Management](/docs/first_steps/power_apps/digital-twin.html).

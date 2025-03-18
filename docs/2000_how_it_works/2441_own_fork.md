@@ -19,7 +19,7 @@ It is possible to create a hard fork of the network at a given block by creating
 
 The following steps must be done to create a "fork" of the given network.
 
-evan.network operates fully on OpenEthereum nodes. The wiki with all options can be found [here](https://openethereum.github.io/).
+European Public Network operates fully on OpenEthereum nodes. The wiki with all options can be found [here](https://openethereum.github.io/).
 
 ### Create own chain spec
 
@@ -27,7 +27,7 @@ The chain specification contains the information of the "first block" of a block
 
 To create a new fork you must sync the existing blockchain on a local computer to the block where you want to fork the chain.
 
-Download the latest chain spec from the [evan.network GitHub](https://github.com/evannetwork/core-config/blob/master/core.json)
+Download the latest chain spec from the [European Public Network GitHub](https://github.com/evannetwork/core-config/blob/master/core.json)
 
 The description of all available configuration properties can be found on the [OpenEthereum wiki](https://openethereum.github.io/Chain-specification).
 
