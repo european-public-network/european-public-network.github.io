@@ -7,7 +7,7 @@ permalink: /docs/how_it_works/governance.html
 ---
 
 # Governance 
-[European Public Network](https://evan.network/) enables trustful business relationships while maintaining the data sovereignty of the interacting network partners. This trust is based on the decentralized nature of the network, in which no central intermediary has control over data and processes. Decentralization does not mean, however, that the network is without control and supervision.
+[European Public Network](https://www.e-p-n.eu/) enables trustful business relationships while maintaining the data sovereignty of the interacting network partners. This trust is based on the decentralized nature of the network, in which no central intermediary has control over data and processes. Decentralization does not mean, however, that the network is without control and supervision.
 
 Therefore, it is important to establish an organizational structure through which the network is managed efficiently and in partnership. For this reason, it is planned to take control over technological decisions that affect the core of the network in a governance structure.
 
@@ -29,4 +29,4 @@ With the evan Governance, European Public Network has two big benefits:
 1. To ensure the highest possible trust, the responsibility for extending and managing the network shall be with the network stakeholders.
 2. To ensure the highest possible growth, the network shall be open for all businesses and developers to realize their own decentralized business model.
 
-To make this possible, the legal, technical and organizational European Public Network governance structure will be established step by step by evan GmbH.
+To make this possible, the legal, technical and organizational European Public Network governance structure will be established step by step by Blockchain HELIX AG.

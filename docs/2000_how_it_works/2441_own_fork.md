@@ -11,7 +11,7 @@ permalink: /docs/how_it_works/fork_evan_network.html
 ## Hard Forks
 
 Several scenarios are conceivable where e.n.o. members may want or need to perform a fork from the existing blockchain network and to create their own blockchain network.
-This can be through, for example, evan GmbH going out of business, one member wishing to leave, or several members wishing to leave.
+This can be through, for example, Blockchain HELIX AG going out of business, one member wishing to leave, or several members wishing to leave.
 The legal position during and after the execution of the fork of an e.n.o. member is determined by the legal and chosen regulations of the e.n.o..
 When Partners have existing use cases deployed and working on European Public Network the partners may want to take the existing data to their own blockchain network.
 

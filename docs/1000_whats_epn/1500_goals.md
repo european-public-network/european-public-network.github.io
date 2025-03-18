@@ -44,7 +44,7 @@ The goals of European Public Network are:
 - To provide a blockchain technology based on German or European law, respectively.
 - To establish decentralized governance structures that control the development of the network independently of a central organization.
 
-The European Public Network is initiated by [evan GmbH](http://www.European Public Network) and gradually transferred to a decentralized autonomous organization (DAO) by the admission of partners into the European Public Network, in which the control of the network is carried out by the involved partners themselves.
+The European Public Network is initiated by [Blockchain HELIX AG](https://www.e-p-n.eu/) and gradually transferred to a decentralized autonomous organization (DAO) by the admission of partners into the European Public Network, in which the control of the network is carried out by the involved partners themselves.
 
 
 

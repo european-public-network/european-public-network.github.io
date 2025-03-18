@@ -12,7 +12,7 @@ Blockchains are great for smart contracts and decentralization. This gives you t
 
 For this problem the concept of the "oracle" exists. The oracle is a small component which can make transactions to your smart contract based on different triggers, e.g. timed triggers, or triggers depending on another external system.
 
-evan.network provides a JavaScript API which connects to the European Public Network blockchain and provides functionalities to create verifications, VCs, DIDs, Digital Twins, and many other features.
+European Public Network provides a JavaScript API which connects to the European Public Network blockchain and provides functionalities to create verifications, VCs, DIDs, Digital Twins, and many other features.
 
 When you want to connect the European Public Network API to your third party system, we provide a node.js framework called "smart-agents", where you can define business logic mapped to REST APIs.
 

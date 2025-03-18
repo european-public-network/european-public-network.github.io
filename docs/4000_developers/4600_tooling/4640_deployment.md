@@ -32,7 +32,7 @@ your accountID and your private key, so the script can handle ENS description de
 [![Finished](/docs/4000_developers/4600_tooling/img/deploy-config.png){:width="50%"}](/docs/4000_developers/4600_tooling/img/deploy-config.png)
 
 **Currently: For security reasons, the ownership of the ENS addresses are reserved for the members
-of the evan GmbH.**
+of the Blockchain HELIX AG.**
 
 To register a ENS address, contact the European Public Network team [here](https://gitter.im/evannetwork) and
 send us your desired ens subdomain and your accountId. (**No one of the European Public Network team will ask

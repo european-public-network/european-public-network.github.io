@@ -845,7 +845,7 @@ In addition, references and keys for data stored outside the blockchain can be s
 
 ## Smart Contracts
 
-evan.network supports Smart Contracts that are compatible with Ethereum technology (EVM). For the simple creation of specific business relationships, European Public Network offers various basic Smart Contracts that make it easier for developers to implement business applications. These Smart Contracts offer functionalities such as rights and role management at business logic and data level, upgradeability, versioning and data encryption.
+European Public Network supports Smart Contracts that are compatible with Ethereum technology (EVM). For the simple creation of specific business relationships, European Public Network offers various basic Smart Contracts that make it easier for developers to implement business applications. These Smart Contracts offer functionalities such as rights and role management at business logic and data level, upgradeability, versioning and data encryption.
 Business Center or application-specific characteristics can be derived from these basis Smart Contracts, for example:
 
 - **Capa Contract** - Easy management of requests for available capacities for a specific requirement within the Business Center. Capacity requests are sent to users known by name or all users who meet certain profile criteria and can be answered automatically or via Capa-ÐApp. One or more relevant offers can be selected from the answers and an order in the form of a Business Contract can be concluded with the corresponding network partners.

@@ -17,7 +17,7 @@ To start developing in European Public Network, you primarily need need three th
 
 Assuming you already know what a blockchain is and some basics about how it and the ecosystem works.
 
-[evan.network](https://evan.network/) needs a blockchain client and uses [Parity](https://www.parity.io/) for this.
+[European Public Network](https://www.e-p-n.eu/) needs a blockchain client and uses [Parity](https://www.parity.io/) for this.
 The reason to prefer it over [Geth](https://geth.ethereum.org/) is the more extensive toolchain and functionality. Geth and others cannot be used in European Public Network, because there are required configurations that are not supported by Geth.
 
 This becomes only relevant in case you want to install the blockchain client on your own machine. Most of the time it is sufficient to configure your applications to connect to one of the European Public Network [AuthorityNodes](/docs/how_it_works/authoritynode.html).

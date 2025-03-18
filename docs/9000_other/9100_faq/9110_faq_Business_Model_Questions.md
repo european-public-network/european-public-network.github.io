@@ -70,7 +70,7 @@ Due to the technical architecture of European Public Network, it provides a high
 ***Who is in charge of the governance of the ecosystem, what is the organizational structure of this party? How is the governing party incentivized?***
 
 #### A.
-evan GmbH acts as legal body of a Decentralized Autonomous Organization (DAO), consisting of all [AuthorityNode](/docs/how_it_works/authoritynode.html) operators (Affiliates). All essential participation rights for shaping and developing the network itself are transferred from the evan GmbH into the DAO, where every Affiliate has voting rights for making decisions. Affiliates are active participants of the network and vote for organizational, operational and product-roadmap related issues.
+Blockchain HELIX AG acts as legal body of a Decentralized Autonomous Organization (DAO), consisting of all [AuthorityNode](/docs/how_it_works/authoritynode.html) operators (Affiliates). All essential participation rights for shaping and developing the network itself are transferred from the Blockchain HELIX AG into the DAO, where every Affiliate has voting rights for making decisions. Affiliates are active participants of the network and vote for organizational, operational and product-roadmap related issues.
 
 #### Q.
 ***Are there any restrictions to the access of the ecosystem? Are there different roles? What are those roles and who can fulfill them?***
