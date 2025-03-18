@@ -1,0 +1,17 @@
+{% assign pages_list = site.html_pages | sort:"nav_order" %}
+{% assign index = 0 %}
+<div class="evan-navigation-tabs w-100">
+  {% for node in pages_list %}
+    {% unless node.nav_exclude %}
+      {% if node.has_children %}
+       {% assign index = index | plus:1 %}
+        <a class="evan-tab tab-{{ index }} {% if page.url == node.url or page.parent == node.title or page.grand_parent == node.title %} active {% else %}  {% endif %}" href="{{ node.url | absolute_url }}">
+          {% if page.parent == node.title or page.grand_parent == node.title %}
+            {% assign first_level_url = node.url | absolute_url %}
+          {% endif %}
+          {{ node.title }}
+        </a>
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+</div>

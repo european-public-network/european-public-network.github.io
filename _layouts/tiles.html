@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body class="sidebar-overlay">
+
+
+  <div class="evan theme-evan theme-wiki">
+    <div class="evan-dapp-wrapper">
+        <div>
+            <div>
+                <!---->
+            </div>
+            <!---->
+        </div>
+
+        <!-- REMOVE ON INTEGRATION -->
+            <nav class="navbar">
+                <div class="navbar-brand clickable"><a href="/"><img src="/public/evan-logo-dark-half.svg" class="brand-large"></a></div>
+                <div class="nav">
+                    <div class="ml-3 bg-text-secondary">evan.network Wiki</div>
+                    <form action="/search.html">
+                      <div class="tipue_search_left">
+                        <img src="{{ site.base_url }}/public/tipuesearch/search.png" class="tipue_search_icon">
+                      </div>
+                      <div class="tipue_search_right">
+                        <input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required>
+                      </div>
+                      <div style="clear: both;"></div>
+                    </form>
+                </div>
+            </nav>
+        <!-- /REMOVE ON INTEGRATION -->
+
+        <div class="dapp-wrapper-body show-sidebar-2">
+            <div class="dapp-wrapper-content">
+                <!---->
+                <!---->
+                <div style="overflow-y: auto;height: calc(100vh - 63px);">
+                    <div class="d-flex">
+                      {% if page.hide_menu %} {% else %} {% include sidebar.html %} {% endif %}
+                    </div>
+                    {% if page.hide_content %}
+
+                    {% else %}
+                    <div class="container position-relative" id="content">
+                        <div class="row h-100 py-3">
+                            <main class="col p-5 mr-3 bg-level-1 border">
+                               {{ content }}
+                            </main>
+                        </div>
+                    </div>
+                    {% endif %}
+                    <div class="d-md-flex container flex-wrap justify-content-center">
+                        {% for tile in page.tiles %}
+                        <a class="
+                            d-block
+                            p-3 {% if tile.description %} col-md-5 col-lg-4 col-xl-3
+                            m-md-3 mb-3 p-4 {% else %} col-md-5 col-lg-4 col-xl-2
+                            m-md-2 mb-3 {% endif %}
+                            text-center
+                            bg-level-1 bg-text-light border evan-highlight" href="{{ tile.link }}">
+                        <i class="highlight fas fa-{{ tile.icon }} p-4 xxxl"></i>
+                            <h3 class="highlight">
+                                {{ tile.title }}
+                            </h3>
+                            {% if tile.description %}
+                            <span class="text-muted highlight">
+                               {{ tile.description }}
+                            </span>
+                            {% endif %}
+                        </a>
+                        {% endfor %}
+
+                        {% include footer.html %}
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+
+</html>

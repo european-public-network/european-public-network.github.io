@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include head.html %}
+
+<body class="sidebar-overlay">
+
+
+  <div class="evan theme-evan theme-wiki">
+    <div class="evan-dapp-wrapper">
+        <div>
+            <div>
+                <!---->
+            </div>
+            <!---->
+        </div>
+
+        <!-- REMOVE ON INTEGRATION -->
+            <nav class="navbar">
+                <div class="navbar-brand clickable"><a href="/"><img src="/public/evan-logo-dark-half.svg" class="brand-large"></a></div>
+                <div class="nav">
+                    <div class="ml-3 bg-text-secondary">evan.network Wiki</div>
+                    <form action="/search.html">
+                      <div class="tipue_search_left">
+                        <img src="{{ site.base_url }}/public/tipuesearch/search.png" class="tipue_search_icon">
+                      </div>
+                      <div class="tipue_search_right">
+                        <input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required>
+                      </div>
+                      <div style="clear: both;"></div>
+                    </form>
+                </div>
+            </nav>
+        <!-- /REMOVE ON INTEGRATION -->
+
+        <div class="dapp-wrapper-body show-sidebar-2">
+            <div class="dapp-wrapper-content">
+                <!---->
+                <!---->
+                <div>
+                    <div class="d-flex">
+                      {% include sidebar.html %}
+                    </div>
+                    <div style="overflow-y: auto;height: calc(100vh - 63px);">
+                        <!---->
+                        <!---->
+                      <div class="container position-relative" id="content">
+                          <div class="row h-100 py-3">
+                              <main class="col p-3 mr-3 bg-level-1 border">
+                                <h1>Search results</h1>
+                                <div id="tipue_search_content"></div>
+                              </main>
+                          </div>
+                          {% include footer.html %}
+                      </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <script>
+    $(document).ready(function () {
+      // Hook up search
+      $('#tipue_search_input').tipuesearch({ 'show': 99 });
+    });
+  </script>
+</body>
+
+</html>
