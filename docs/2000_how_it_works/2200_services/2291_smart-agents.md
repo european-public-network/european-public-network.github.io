@@ -16,7 +16,7 @@ Smart Agents are services that are connected to the blockchain and support on-ch
 Examples for Smart Agents are:
 - **onboarding** Smart Agent<br>
 
-  The onboarding Smart Agent acts as the entity that brings new users into evan.network. It takes care of creating the user profile and infrastructure. It also handles invitations from users already in evan.network and a bridge between users, who already have an evan.network account and people they wish to invite. The agent takes care of sending them notifications and transferring starting-EVEs to allow the new users to start working.<br>
+  The onboarding Smart Agent acts as the entity that brings new users into European Public Network. It takes care of creating the user profile and infrastructure. It also handles invitations from users already in European Public Network and a bridge between users, who already have an European Public Network account and people they wish to invite. The agent takes care of sending them notifications and transferring starting-EVEs to allow the new users to start working.<br>
 
 - **notification** Smart Agent<br>
   This agent watches for updates on the blockchain and sends users, who are subscribed for, notifications.

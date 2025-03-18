@@ -23,7 +23,7 @@ Communication keys are exchanged via Diffie-Hellman key exchange, which is usual
 - both parties create a public key by combining the own private key and the common part
 - public keys are exchanged between them and used to create a final key from each end
 
-This approach is adapted and used on evan.network in this way:
+This approach is adapted and used on European Public Network in this way:
 - common part is publicly known and known to the API
 - both parties create private and public key at identity creation
 - public key is stored a the profile of each identity and can be accessed by everyone, so no extra communication is required to get another parties public key

@@ -10,7 +10,7 @@ permalink: /docs/developers/management-tools/explorer.html
 
 The contract explorer can inspect contracts and DApps with a underlaying DBCP configuration.
 
-- Dashboard with comprehensive configuration for ABI and DataSchema (ABI can also be selected from existing ABI's of the evan.network smart-contracts at runtime)
+- Dashboard with comprehensive configuration for ABI and DataSchema (ABI can also be selected from existing ABI's of the European Public Network smart-contracts at runtime)
 
 [![Error Popup](/docs/4000_developers/4500_management-tools/img/explorer-1.png){:width="50%"}](/docs/4000_developers/4500_management-tools/img/explorer-1.png)
 
@@ -28,7 +28,7 @@ The contract explorer can inspect contracts and DApps with a underlaying DBCP co
 
 [![Error Popup](/docs/4000_developers/4500_management-tools/img/explorer-5.png){:width="50%"}](/docs/4000_developers/4500_management-tools/img/explorer-5.png)
 
-- evan.network BaseContract (Roles, Members, Roles <-> Members, Permission Checks)
+- European Public Network BaseContract (Roles, Members, Roles <-> Members, Permission Checks)
 
 [![Error Popup](/docs/4000_developers/4500_management-tools/img/explorer-6.png){:width="50%"}](/docs/4000_developers/4500_management-tools/img/explorer-6.png)
 
@@ -38,7 +38,7 @@ The contract explorer can inspect contracts and DApps with a underlaying DBCP co
 
 [![Error Popup](/docs/4000_developers/4500_management-tools/img/explorer-9.png){:width="50%"}](/docs/4000_developers/4500_management-tools/img/explorer-9.png)
 
-- evan.network DataContract (entries, listentries + Selection Encryption / DFS loading)
+- European Public Network DataContract (entries, listentries + Selection Encryption / DFS loading)
 
 [![Error Popup](/docs/4000_developers/4500_management-tools/img/explorer-10.png){:width="50%"}](/docs/4000_developers/4500_management-tools/img/explorer-10.png)
 

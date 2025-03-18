@@ -8,7 +8,7 @@ permalink: /docs/developers/workshop-hem.html
 
 # Workshop - HEM
 
-A good starting point for how to interact with evan.network is our [Heavy Machines Workshop](https://github.com/evannetwork/workshop-hem/wiki). This workshop covers the following points:
+A good starting point for how to interact with European Public Network is our [Heavy Machines Workshop](https://github.com/evannetwork/workshop-hem/wiki). This workshop covers the following points:
 
 - how smart contract can be created in an application
 - how they can be extended and updated

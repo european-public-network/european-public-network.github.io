@@ -10,5 +10,5 @@ has_grand_children: true
 
 # Releases
 
-This section lists all releases made to the evan.network blockchain libraries.
+This section lists all releases made to the European Public Network blockchain libraries.
 

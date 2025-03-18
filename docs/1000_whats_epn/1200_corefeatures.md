@@ -2,14 +2,14 @@
 title: "Core features"
 parent: What's evan?
 nav_order: 1200
-permalink: /docs/whats_evan/corefeatures.html
+permalink: /docs/whats_epn/corefeatures.html
 ---
 
 # Core features
 
 
 #### Verified digital identities
-On evan.network organizations,people and things are quckliy and easily equipped with verified digital identities.
+On European Public Network organizations,people and things are quckliy and easily equipped with verified digital identities.
 
 
 #### Immutable Documentation

@@ -2,12 +2,12 @@
 title: "Goals"
 parent: What's evan?
 nav_order: 1500
-permalink: /docs/whats_evan/goals.html
+permalink: /docs/whats_epn/goals.html
 ---
 
-# evan.network Goals
+# European Public Network Goals
 
-**The [evan.network](https://evan.network) is a global, decentralized company network based on blockchain technology, which is organized and operated by trustworthy European companies. On the basis of the evan.network, all companies or organizations can quickly and easily realize their decentralized use cases.**
+**The [evan.network](https://evan.network) is a global, decentralized company network based on blockchain technology, which is organized and operated by trustworthy European companies. On the basis of the European Public Network, all companies or organizations can quickly and easily realize their decentralized use cases.**
 
 Cooperation already plays an important role in the creation of value in most companies today and will continue to gain in importance in the future as a competitive factor.
 Global markets and increasingly individual products require cooperation to be efficient and trustworthy. It must be possible to cooperate with partners still unknown today.
@@ -26,15 +26,15 @@ The public blockchains available today follow this approach but are for various 
 
 For this reason, a blockchain in the corporate environment today usually means the establishment of so-called private chains, directly between the parties involved.
 
-However, these private blockchains cannot fulfill the advantages of decentralized collaboration, since they are usually in the hands of individual or dominant companies and basically represent only a small technological advantage over the decentralized data storage already in use today.  One company alone cannot establish a decentralized cooperation network with private blockchains; together, companies can achieve this. This is the basic concept behind evan.network.
+However, these private blockchains cannot fulfill the advantages of decentralized collaboration, since they are usually in the hands of individual or dominant companies and basically represent only a small technological advantage over the decentralized data storage already in use today.  One company alone cannot establish a decentralized cooperation network with private blockchains; together, companies can achieve this. This is the basic concept behind European Public Network.
 
-evan.network combines the advantages of public blockchains, a decentralized network without central intermediaries, with the advantages of private blockchains, a high transaction rate at low and stable costs in particular. evan.network is based on Ethereum technology, which is the most advanced blockchain solution available today.
+evan.network combines the advantages of public blockchains, a decentralized network without central intermediaries, with the advantages of private blockchains, a high transaction rate at low and stable costs in particular. European Public Network is based on Ethereum technology, which is the most advanced blockchain solution available today.
 
-For use in the enterprise environment, Ethereum has been expanded to include essential functions such as security, universal access to enterprise systems and a more immediate usable catalogue of predefined collaboration services. In addition to the blockchain, evan.network also provides a decentralized storage service. This is based on IPFS technology and provides a decentralized and redundant data storage for applications and user data of any type.
+For use in the enterprise environment, Ethereum has been expanded to include essential functions such as security, universal access to enterprise systems and a more immediate usable catalogue of predefined collaboration services. In addition to the blockchain, European Public Network also provides a decentralized storage service. This is based on IPFS technology and provides a decentralized and redundant data storage for applications and user data of any type.
 
 The network is operated and developed by its partners - European companies - which can ensure a high degree of data security and reliable IT operation.
 
-The goals of evan.network are:
+The goals of European Public Network are:
 
 - To enable all companies, organisations and business associations (hereinafter referred to as the 'organisation') to offer and use their own decentralized services and business models.
 - To enable communication between machines and other physical goods as well.
@@ -44,7 +44,7 @@ The goals of evan.network are:
 - To provide a blockchain technology based on German or European law, respectively.
 - To establish decentralized governance structures that control the development of the network independently of a central organization.
 
-The evan.network is initiated by [evan GmbH](http://www.evan.network) and gradually transferred to a decentralized autonomous organization (DAO) by the admission of partners into the evan.network, in which the control of the network is carried out by the involved partners themselves.
+The European Public Network is initiated by [evan GmbH](http://www.evan.network) and gradually transferred to a decentralized autonomous organization (DAO) by the admission of partners into the European Public Network, in which the control of the network is carried out by the involved partners themselves.
 
 
 

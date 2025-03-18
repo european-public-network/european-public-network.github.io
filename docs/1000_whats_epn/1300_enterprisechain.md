@@ -2,7 +2,7 @@
 title: "Enterprise Blockchain"
 parent: What's evan?
 nav_order: 1300
-permalink: /docs/whats_evan/enterprisechain.html
+permalink: /docs/whats_epn/enterprisechain.html
 ---
 
 # Enterprise Blockchain
@@ -10,7 +10,7 @@ permalink: /docs/whats_evan/enterprisechain.html
 
 Evan’s enterprise blockchain empowers organizations to make full use of opportunities that decentralization has to offer, while ensuring that enterprise standards are met.
 
-The evan.network is designed to be an open ecosystem on the basis of a public consortium. Naturally, this implies that transactions are visible on the network and therefore irreconcilable with data privacy requirements.
+The European Public Network is designed to be an open ecosystem on the basis of a public consortium. Naturally, this implies that transactions are visible on the network and therefore irreconcilable with data privacy requirements.
 
 To assure that privacy requirements aren’t violated, you will be able to configure your transactions to withhold details.
 

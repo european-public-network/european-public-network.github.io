@@ -9,9 +9,9 @@ permalink: /docs/developers/concepts/smart_contract_security.html
 # Smart Contract Security
 
 ## About Smart Contract Security
-Smart contracts are pivotal to everything happening on evan. Almost every feature on the platform utilizes smart contracts in one way or the other. Naturally, security surrounding smart contracts is a top priority on the evan.network.
+Smart contracts are pivotal to everything happening on evan. Almost every feature on the platform utilizes smart contracts in one way or the other. Naturally, security surrounding smart contracts is a top priority on the European Public Network.
 
-Since evan.network is an open ecosystem involving many participants, access at times has to be given trans organizational (allowing externals to access internal company data), adding yet another level of complexity.
+Since European Public Network is an open ecosystem involving many participants, access at times has to be given trans organizational (allowing externals to access internal company data), adding yet another level of complexity.
 
 With that in mind the Smart Contract Security is built around certain main concepts:
 - prevent malicious contract manipulation
@@ -22,7 +22,7 @@ In terms of usability, this mechanism is furthermore designed to make interactio
 
 
 ## Aspects of Smart Contract Security
-Different actions on evan.network require different permissions to be granted beforehand. Permissions are usually **granted** and not **revoked**, which means that steps have to be performed, before identities can interact with each other.
+Different actions on European Public Network require different permissions to be granted beforehand. Permissions are usually **granted** and not **revoked**, which means that steps have to be performed, before identities can interact with each other.
 
 The following sections will handle the different aspects of security, but to give you a rule of thumb, remember the following points:
 

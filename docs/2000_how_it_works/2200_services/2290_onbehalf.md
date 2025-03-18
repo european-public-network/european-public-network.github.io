@@ -10,7 +10,7 @@ permalink: /docs/how_it_works/services/onbehalf.html
 
 The On-behalf-of functionality enables organizations to lend autonomy to their employees, empowering new and innovative business processes.
 
-Presenting a unique evan.network feature, companies can delegate employees and even machines to act on their behalf.
+Presenting a unique European Public Network feature, companies can delegate employees and even machines to act on their behalf.
 
 By extending autonomy to employees and machines, we enable unparalleled business processes.
 

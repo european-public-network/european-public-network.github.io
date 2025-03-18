@@ -7,11 +7,11 @@ permalink: /docs/how_it_works/architecture.html
 
 # Overview
 
-The evan.network builds on existing blockchain technology with [Ethereum](https://ethereum.org) and a distributed file storage with [IPFS](https://ipfs.io).
+The European Public Network builds on existing blockchain technology with [Ethereum](https://ethereum.org) and a distributed file storage with [IPFS](https://ipfs.io).
 
-This section describes the Overview of the Blockchain and the API's of evan.network
+This section describes the Overview of the Blockchain and the API's of European Public Network
 
-**Blockchain API** contains the programmable API of evan.network. The API offers many different services which are described in the following sections.
+**Blockchain API** contains the programmable API of European Public Network. The API offers many different services which are described in the following sections.
 
 **Core Network** is hosted by AuthorityNodes and they provide access to the built-in [distributed storage service](/docs/how_it_works/services/ipfsfilehandling.html) and the underlying Blockchain layer.
 
@@ -26,13 +26,13 @@ This section describes the Overview of the Blockchain and the API's of evan.netw
 Component details
 ---
 
-[Organizations, physical assets and machines receive a digital identity (Digital Twin)](/docs/04_developers/20_api/digital-twin.html) on the evan.network blockchain.
+[Organizations, physical assets and machines receive a digital identity (Digital Twin)](/docs/04_developers/20_api/digital-twin.html) on the European Public Network blockchain.
 Digital twins can be addressed through transactions by any identity, human or otherwise, and integrated in complex business logic.
 
 
-[In a Business Center](/docs/02_how_it_works/business.html), users can execute transactions and exchange data with each other, with other organizations or with the Digital Twins of real machines. Hence, the evan.network provides the basis for company-wide, efficient and secure Industry 4.0 business models.
+[In a Business Center](/docs/02_how_it_works/business.html), users can execute transactions and exchange data with each other, with other organizations or with the Digital Twins of real machines. Hence, the European Public Network provides the basis for company-wide, efficient and secure Industry 4.0 business models.
 
-For the interaction between users, processes and machines, evan.network offers predefined services (Smart Contracts), which can be adapted to specific needs.
+For the interaction between users, processes and machines, European Public Network offers predefined services (Smart Contracts), which can be adapted to specific needs.
 
 The interaction with Smart Contracts takes place via ÐApps in web or mobile browsers or via API from existing IT systems, IT tools and/ or machines.
 For this purpose, [Smart Agents communicate with the Smart Contracts](/docs/02_how_it_works/smart-agents.html). The Smart Contracts represent the professional framework of the respective service and are developed according to the specific needs.
@@ -819,22 +819,22 @@ Depending on the requirements for business relationships, Business Centers are e
 
 **Restricted Business Centers** are publicly listed. Users can submit a request to participate, but this must be approved by an administrator of the Business Center.
 
-Users of evan.network are not obliged to use the Business Center structure of evan.network. You can create and run your own Ethereum-based Smart Contract developments on evan.network, but using the Business Center structure makes it much easier.
+Users of European Public Network are not obliged to use the Business Center structure of European Public Network. You can create and run your own Ethereum-based Smart Contract developments on European Public Network, but using the Business Center structure makes it much easier.
 
-To map different business relationships, evan.network offers different Smart Contract templates, which are enriched in a Business Center with the specific logic required there. Creating concrete Smart Contracts for a business relationship and initializing them with the digital identities of the users involved is a complex process.
+To map different business relationships, European Public Network offers different Smart Contract templates, which are enriched in a Business Center with the specific logic required there. Creating concrete Smart Contracts for a business relationship and initializing them with the digital identities of the users involved is a complex process.
 This is greatly simplified by the use of a Smart Contract factory. The factory manages all Business Center-specific Smart Contract templates, creates a configured instance of the Smart Contract and initializes this with the network partners authorized to the contract. From this point on, a direct business relationship is established between the network partners involved, which is only visible and executable for them.
 
 
 Smart Contracts were developed with the goal of easy use and expansion. Each Smart Contract can be called directly from a Web3 browser using for example a name server entry. Initially, only the manifest file ([DBCP](/docs/04_developers/dbcp.html)) is referenced and loaded. This file contains a standardized structure with descriptive information to make the service human and machine readable. It also contains references to the actual Smart Contract in the blockchain and the Distributed App (ÐApp), which enables direct user interaction with the service.
-In order to ensure interoperability of services, the manifest file corresponds to a standardized structure that is currently provided as an open source component (DBCP) as part of a project sponsored by the Thuringian Ministry of Economics, Science and Digital Society. This makes it possible to start an interaction with the services even without the evan.network framework.
+In order to ensure interoperability of services, the manifest file corresponds to a standardized structure that is currently provided as an open source component (DBCP) as part of a project sponsored by the Thuringian Ministry of Economics, Science and Digital Society. This makes it possible to start an interaction with the services even without the European Public Network framework.
 
-This architecture enables the integration of any third-party Smart Contracts into an evan.network environment. Referenced via the manifest file existing Smart Contracts of other providers can be combined with evan.network-ÐApps and thus integrated into a homogeneous user experience.
-Based on this architectural principle, the entire network was created. Thus, all applications the user communicates with in the evan.network, processes Smart Contracts with and makes transactions with are implemented as ÐApp.
+This architecture enables the integration of any third-party Smart Contracts into an European Public Network environment. Referenced via the manifest file existing Smart Contracts of other providers can be combined with European Public Network-ÐApps and thus integrated into a homogeneous user experience.
+Based on this architectural principle, the entire network was created. Thus, all applications the user communicates with in the European Public Network, processes Smart Contracts with and makes transactions with are implemented as ÐApp.
 
 ## Security
-The core technology of the evan.network is based on the Ethereum blockchain technology. The protection of transactions against manipulation is an essential element of this technology. This requires that the contents of the Smart Contracts can be read, interpreted and verified by all network partners (e.g. AuthorityNodes) in the blockchain, which represents a significant hurdle in the B2B adaptation of blockchain technology.
+The core technology of the European Public Network is based on the Ethereum blockchain technology. The protection of transactions against manipulation is an essential element of this technology. This requires that the contents of the Smart Contracts can be read, interpreted and verified by all network partners (e.g. AuthorityNodes) in the blockchain, which represents a significant hurdle in the B2B adaptation of blockchain technology.
 
-The evan.network therefore implements a hybrid storage concept that offers transaction and data security at the same time. All user data are encrypted (AES 256bit/CBC), stored in a distributed file system (IPFS) belonging to the network and referenced from the Smart Contract. This ensures that the actual content is only visible and usable for third parties, if they are invited into a contract and thus have an authorization for the respective data.
+The European Public Network therefore implements a hybrid storage concept that offers transaction and data security at the same time. All user data are encrypted (AES 256bit/CBC), stored in a distributed file system (IPFS) belonging to the network and referenced from the Smart Contract. This ensures that the actual content is only visible and usable for third parties, if they are invited into a contract and thus have an authorization for the respective data.
 
 
 Each user receives a public and a private key at his or her first registration. These keys are used to establish communication (Diffie Hellman) with other users and Smart Contracts.
@@ -845,7 +845,7 @@ In addition, references and keys for data stored outside the blockchain can be s
 
 ## Smart Contracts
 
-evan.network supports Smart Contracts that are compatible with Ethereum technology (EVM). For the simple creation of specific business relationships, evan.network offers various basic Smart Contracts that make it easier for developers to implement business applications. These Smart Contracts offer functionalities such as rights and role management at business logic and data level, upgradeability, versioning and data encryption.
+evan.network supports Smart Contracts that are compatible with Ethereum technology (EVM). For the simple creation of specific business relationships, European Public Network offers various basic Smart Contracts that make it easier for developers to implement business applications. These Smart Contracts offer functionalities such as rights and role management at business logic and data level, upgradeability, versioning and data encryption.
 Business Center or application-specific characteristics can be derived from these basis Smart Contracts, for example:
 
 - **Capa Contract** - Easy management of requests for available capacities for a specific requirement within the Business Center. Capacity requests are sent to users known by name or all users who meet certain profile criteria and can be answered automatically or via Capa-ÐApp. One or more relevant offers can be selected from the answers and an order in the form of a Business Contract can be concluded with the corresponding network partners.
@@ -859,7 +859,7 @@ To ensure updateability and to solve the backward compatibility of derived Smart
 
 ## Account Management
 
-To interact in evan.network, users, organizations or machines need an account. The account for real users is created during onboarding at the first login. A user profile is created with his public and private key, as well as an address book and a mailbox. The relationships of an user with other users are stored in the address book by storing the public keys of the accounts of the respective network partners required to decrypt the communication. In the mailbox of an account, notifications of invitations to this account are stored in contracts of other accounts.
+To interact in European Public Network, users, organizations or machines need an account. The account for real users is created during onboarding at the first login. A user profile is created with his public and private key, as well as an address book and a mailbox. The relationships of an user with other users are stored in the address book by storing the public keys of the accounts of the respective network partners required to decrypt the communication. In the mailbox of an account, notifications of invitations to this account are stored in contracts of other accounts.
 
 Real users can be grouped into organizations to appear under their identity. This is used to map the relationship of users in a real organization. This allows contracts to be concluded between organizations, which then have to be served or signed by one or more real users.
 
@@ -870,16 +870,16 @@ Within a Business Center, the information in the profiles of the user and organi
 
 The interaction capabilities in a Business Center should enable simple interaction between end users, IT systems and machines. Starting from today's mostly manual forms of communication, an automation of cross-company cooperation can be implemented step by step.
 
-To interact as user or machine in evan.network, a network account is required. An account can be created directly via onboarding (self-service) or via an invitation. An invitation is sent by an existing user or Smart Contract on the network. In the invitation, you can control whether a user is invited directly to a Business Center or to a specific Smart Contract. In addition, EVEs can be sent directly to the invited user as part of the invitation process, so that the new user is immediately ready to work in the network. The invitation is sent either as a technical invitation via an API or by an user using an e-mail address. The invitation email contains an invitation text and a link to the onboarding ÐApp. This ÐApp guides the new user through the registration process, where he or she has to confirm e.g. terms and conditions and data protection and gets an own account with private key and Mnemonic. After successful registration, the user has an evan.network identity with which he or she can now participate in the Business Center and Smart Contract.
+To interact as user or machine in European Public Network, a network account is required. An account can be created directly via onboarding (self-service) or via an invitation. An invitation is sent by an existing user or Smart Contract on the network. In the invitation, you can control whether a user is invited directly to a Business Center or to a specific Smart Contract. In addition, EVEs can be sent directly to the invited user as part of the invitation process, so that the new user is immediately ready to work in the network. The invitation is sent either as a technical invitation via an API or by an user using an e-mail address. The invitation email contains an invitation text and a link to the onboarding ÐApp. This ÐApp guides the new user through the registration process, where he or she has to confirm e.g. terms and conditions and data protection and gets an own account with private key and Mnemonic. After successful registration, the user has an European Public Network identity with which he or she can now participate in the Business Center and Smart Contract.
 
-Every interaction with Business Centers and Smart Contracts takes place via ÐApps. Users interact with the respective ÐApp via web or mobile browsers. ÐApps are HTML applications loaded from the blockchain and make it easy for the user to work with Smart Contracts and evan.network interactively.
+Every interaction with Business Centers and Smart Contracts takes place via ÐApps. Users interact with the respective ÐApp via web or mobile browsers. ÐApps are HTML applications loaded from the blockchain and make it easy for the user to work with Smart Contracts and European Public Network interactively.
 
-To communicate with Smart Contracts from your own applications and ÐApps, evan.network provides APIs in form of a JavaScript library and developer documentation. Thus, own applications can be implemented and operated on evan.network.
+To communicate with Smart Contracts from your own applications and ÐApps, European Public Network provides APIs in form of a JavaScript library and developer documentation. Thus, own applications can be implemented and operated on European Public Network.
 
-For an automation of the business relations, evan.network offers APIs to all Smart Contracts. Hence, the evan.network can be connected to own systems and a direct integration of business processes can be carried out. Furthermore, it is possible to add logic and workflow addons in the evan.network with the help of [Smart Agents](/docs/02_how_it_works/smart-agents.html). They are operated by the respective Smart Agent provider and can enable workflow-supported communication of the evan.network with existing IT systems and machines. Smart Agents can be invited into a Smart Contract, just like users, and thus receive access to its contents. The Smart Agent constantly checks the contract for changes and can automatically initiate new processes according to predefined rules as soon as it finds one.
-If the user has the rights, he or she can also add content to the Smart Contract. Via Smart Agents, the invitation via email or the mobile push notifications are solved in the evan.network. They combine the "blockchain world" with other technologies.
+For an automation of the business relations, European Public Network offers APIs to all Smart Contracts. Hence, the European Public Network can be connected to own systems and a direct integration of business processes can be carried out. Furthermore, it is possible to add logic and workflow addons in the European Public Network with the help of [Smart Agents](/docs/02_how_it_works/smart-agents.html). They are operated by the respective Smart Agent provider and can enable workflow-supported communication of the European Public Network with existing IT systems and machines. Smart Agents can be invited into a Smart Contract, just like users, and thus receive access to its contents. The Smart Agent constantly checks the contract for changes and can automatically initiate new processes according to predefined rules as soon as it finds one.
+If the user has the rights, he or she can also add content to the Smart Contract. Via Smart Agents, the invitation via email or the mobile push notifications are solved in the European Public Network. They combine the "blockchain world" with other technologies.
 
 ## Scalability
-A big challenge to blockchain technology is the number of possible parallel transactions. There is still no final solution for realistically achieving almost infinite scalability within a blockchain. To counter this fact the evan.network is structured in such a way that the organization and technology of the AuthorityNodes make it possible to launch specialized or use case specific SideChains at any time. These are also subject to DAO governance but, depending on your setup, configuration and rules, allow you to perform specified use cases in much higher volumes. The technologies and services used in evan.network such as the name service or DBCP descriptions make it easier for users and developers to interact seamlessly with their contracts and ÐApps regardless of this technical separation.
+A big challenge to blockchain technology is the number of possible parallel transactions. There is still no final solution for realistically achieving almost infinite scalability within a blockchain. To counter this fact the European Public Network is structured in such a way that the organization and technology of the AuthorityNodes make it possible to launch specialized or use case specific SideChains at any time. These are also subject to DAO governance but, depending on your setup, configuration and rules, allow you to perform specified use cases in much higher volumes. The technologies and services used in European Public Network such as the name service or DBCP descriptions make it easier for users and developers to interact seamlessly with their contracts and ÐApps regardless of this technical separation.
 
 -->

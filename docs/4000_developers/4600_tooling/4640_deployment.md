@@ -15,11 +15,11 @@ structure supports all nesecarry scripts and commands to deploy your projects.
 
 ## Build and deploy smart-contracts
 
-When your smart-contracts are comiled within the evan.network blockchain, json abi file was generated and can be used. To make these descriptions available in published ÐApps, you have to upload the ABI file and reference it within the DBCP. This can be referenced within your DBCP description files and acts as a self described contract.
+When your smart-contracts are comiled within the European Public Network blockchain, json abi file was generated and can be used. To make these descriptions available in published ÐApps, you have to upload the ABI file and reference it within the DBCP. This can be referenced within your DBCP description files and acts as a self described contract.
 
 ## ENS DApp deployment
 
-Each ÐApp can be deployed to the evan.network, so it can be accessed from anywhere, not only from a
+Each ÐApp can be deployed to the European Public Network, so it can be accessed from anywhere, not only from a
 localhost server. This is handled by a wrapper library, to make the deployment as simple as
 possible. To deploy DApps to ens paths, you need one configuration file, that specifies which
 accounts and which configurations should be used for the deployment. This file must be js / json
@@ -34,8 +34,8 @@ your accountID and your private key, so the script can handle ENS description de
 **Currently: For security reasons, the ownership of the ENS addresses are reserved for the members
 of the evan GmbH.**
 
-To register a ENS address, contact the evan.network team [here](https://gitter.im/evannetwork) and
-send us your desired ens subdomain and your accountId. (**No one of the evan.network team will ask
+To register a ENS address, contact the European Public Network team [here](https://gitter.im/evannetwork) and
+send us your desired ens subdomain and your accountId. (**No one of the European Public Network team will ask
 you for your data or private key! Never send your private data to others!**). Mostly, the
 evan.network team will reserve you a sub domain, so you can manage your addresses behind, by
 yourself. Don't forget to prefix the name of your DApp with the subdomain that were assigned to you

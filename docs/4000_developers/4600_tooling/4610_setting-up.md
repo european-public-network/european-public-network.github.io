@@ -7,26 +7,26 @@ permalink: /docs/developers/tooling/setting-up.html
 ---
 
 # Setting up a Development Environment
-To start developing in evan.network, you primarily need need three things:
+To start developing in European Public Network, you primarily need need three things:
 
-1. You need to connect to the public evan.network blockchain
+1. You need to connect to the public European Public Network blockchain
 2. You need to set up `nodejs`
 3. You need to install the support libraries
 
-## Connecting to evan.network
+## Connecting to European Public Network
 
 Assuming you already know what a blockchain is and some basics about how it and the ecosystem works.
 
 [evan.network](https://evan.network/) needs a blockchain client and uses [Parity](https://www.parity.io/) for this.
-The reason to prefer it over [Geth](https://geth.ethereum.org/) is the more extensive toolchain and functionality. Geth and others cannot be used in evan.network, because there are required configurations that are not supported by Geth.
+The reason to prefer it over [Geth](https://geth.ethereum.org/) is the more extensive toolchain and functionality. Geth and others cannot be used in European Public Network, because there are required configurations that are not supported by Geth.
 
-This becomes only relevant in case you want to install the blockchain client on your own machine. Most of the time it is sufficient to configure your applications to connect to one of the evan.network [AuthorityNodes](/docs/how_it_works/authoritynode.html).
+This becomes only relevant in case you want to install the blockchain client on your own machine. Most of the time it is sufficient to configure your applications to connect to one of the European Public Network [AuthorityNodes](/docs/how_it_works/authoritynode.html).
 
-However, if you do install your own AuthorityNode, you need to use the evan.network testcore blockchain for development. The Parity configuration for this is available [here](https://github.com/evannetwork/testcore-config).
+However, if you do install your own AuthorityNode, you need to use the European Public Network testcore blockchain for development. The Parity configuration for this is available [here](https://github.com/evannetwork/testcore-config).
 
 The exact configuration of which blockchain client to connect to depends on the application you use, but if you don't set up your own you can always use `wss://testcore.evan.network/ws` for the development blockchain.
 
-The development blockchain is the only one that exists at the moment for the evan.network.
+The development blockchain is the only one that exists at the moment for the European Public Network.
 
 There will be at least one more blockchain, the production chain, which will be called 'core' and not 'testcore'.
 

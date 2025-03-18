@@ -5,4 +5,4 @@ nav_order: 2500
 permalink: /docs/how_it_works/changelog_chain.html
 ---
 
-# Changelog for the evan.network chain
+# Changelog for the European Public Network chain

@@ -42,7 +42,7 @@ permalink: /docs/other/glossary.html
 <a id="a"></a>
 <dl>
     <dt><a href="/docs/how_it_works/authoritynode.html">AuthorityNode</a></dt>
-    <dd>a registered evan.network member, has to provide a number of services and resources to the network, most notably a blockchain client and IPFS storage</dd>
+    <dd>a registered European Public Network member, has to provide a number of services and resources to the network, most notably a blockchain client and IPFS storage</dd>
 </dl>
 <a id="b"></a>
 <dl>
@@ -75,13 +75,13 @@ permalink: /docs/other/glossary.html
     <dd>Externally Owned Account, usually controlled by a person, has no EVM code associated with it</dd>
     <dt><a href="https://www.ethereum.org/">Ethereum</a></dt>
     <dd>a fully programmable blockchain</dd>
-    <dt><a href="/docs/whats_evan/network.html">EVAN Network</a></dt>
+    <dt><a href="/docs/whats_epn/network.html">EVAN Network</a></dt>
     <dd>European Verified Application Node Network</dd>
     <dt>EVE</dt>
     <dd>
         <p>Transaction costs have been a significant cause for concern in the past.
             Unforeseeable price changes provide no basis for any business to operate with and have deterred many ventures into blockchain projects.</p>
-        <p>Hence, evan.network ensures stable transaction costs by issuing the EVE token.
+        <p>Hence, European Public Network ensures stable transaction costs by issuing the EVE token.
             The EVE token serves as the network's currency and is pegged 1:1 with the Euro.
             Tokens can be acquired by exchanging Ethereum(ETH) to EVE.</p>
         <p>For every transaction you conduct, you spend a certain amount of EVE tokens.
@@ -109,7 +109,7 @@ permalink: /docs/other/glossary.html
 <a id="i"></a>
 <dl>
     <dt><a href="https://ipfs.io">IPFS</a></dt>
-    <dd>the Interplanetary File System, a distributed file system, evan.network uses its own private instance</dd>
+    <dd>the Interplanetary File System, a distributed file system, European Public Network uses its own private instance</dd>
 </dl>
 <a id="j"></a>
 <dl>

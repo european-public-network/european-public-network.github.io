@@ -1,15 +1,15 @@
 ---
-title: "Fork evan.network"
+title: "Fork European Public Network"
 parent: What's evan?
 nav_order: 1500
-permalink: /docs/whats_evan/fork_evan_network.html
+permalink: /docs/whats_epn/fork_evan_network.html
 ---
 
-# Technical overview creating a fork of evan.network
+# Technical overview creating a fork of European Public Network
 
 ## Hard Forks
 
-When Partners want to cancel the membership of the ENO but has an existing use case deployed and working on evan.network where the partner wants to take the existing data to his own blockchain network.
+When Partners want to cancel the membership of the ENO but has an existing use case deployed and working on European Public Network where the partner wants to take the existing data to his own blockchain network.
 
 It is possible to create a hard fork of the network at a given block by creating a "own" blockchain.
 
@@ -47,7 +47,7 @@ When you entered a password for the new account, your new signer address shows u
 
 #### Adjust chain spec
 
-With this new account you can adjust the signing settings for your own fork of the evan.network. Go to your cloned spec.json and edit it with your favorite editor.
+With this new account you can adjust the signing settings for your own fork of the European Public Network. Go to your cloned spec.json and edit it with your favorite editor.
 
 from line 7-12 you have the configuration of the AuRa mechanism:
 
@@ -61,7 +61,7 @@ from line 7-12 you have the configuration of the AuRa mechanism:
 
 In this object you can configure the authorities (value of the "multi" object) in the chain at a specific block (key of the "multi" object).
 
-The default chain specification of evan.network includes a smart contract which manages the authorities on the network.
+The default chain specification of European Public Network includes a smart contract which manages the authorities on the network.
 
 To add a single account as authority add a new entry in the object and set the key to the block number where the client consensus stopped syncing and as value an object with the key "list" and the value to an array with the accounts which should be the new authorities of the network:
 
@@ -103,7 +103,7 @@ change the networkID to something different and add a "chainID" parameter with t
 
 #### Remove Bootnodes
 
-Because you want your own fork of evan.network your node is not able to sync to the original evan.network bootnodes anymore. You can remove them in the array of `nodes` and you can also add your own nodes (when available) to the array in the spec
+Because you want your own fork of European Public Network your node is not able to sync to the original European Public Network bootnodes anymore. You can remove them in the array of `nodes` and you can also add your own nodes (when available) to the array in the spec
 
 #### Adding new authorities
 
@@ -127,7 +127,7 @@ Then you have to provide the adjusted chainspec.json to all existing and new aut
 
 ---
 
-With these settings you can start your own fork of evan.network. When you start the OpenEthereum client make sure that you pass your new chain spec:
+With these settings you can start your own fork of European Public Network. When you start the OpenEthereum client make sure that you pass your new chain spec:
 
 `openethereum --chain /YOUR/PATH/TO/CHAINSPEC --engine-signer=[NEW SIGNER ADDRESS]`
 
@@ -161,9 +161,9 @@ All these 3 authorities are allowed to publish a new block when their slot takes
 
 The Authoritynode Contract can dynamically manage the list of authorities. The [BaseOwnedSet.sol](https://github.com/evannetwork/smart-contracts-admin/blob/master/contracts/authority/BaseOwnedSet.sol) contains all methods to add/remove new authorities from the contract.
 
-#### Setup on evan.network
+#### Setup on European Public Network
 
-On evan.network we deployed a initial set of the contract with 3 authorities. This contract is placed in the chainspec in the section of the `validators` section as `safeContract`.
+On European Public Network we deployed a initial set of the contract with 3 authorities. This contract is placed in the chainspec in the section of the `validators` section as `safeContract`.
 
 #### Adding authorities
 
@@ -181,9 +181,9 @@ If you want to know more about the AuthorityRound contract and the consensus mec
 
 ### About Permissions
 
-The [`TransactionPermission`](https://github.com/evannetwork/smart-contracts-admin/blob/f4882bb02732a999e266257076f52e6d49faaf7f/contracts/TransactionPermissionContract.sol) contract is responsible for controlling which users are allowed to perform transactions on the evan.network. It is a permissioning contract build as described in the [OpenEthereum wiki](https://openethereum.github.io/Permissioning.html) and configured in the evan.network [chain spec](https://github.com/evannetwork/core-config/blob/c551046dd78f307c56f529b7fa359f0c13c9c63b/core.json#L22).
+The [`TransactionPermission`](https://github.com/evannetwork/smart-contracts-admin/blob/f4882bb02732a999e266257076f52e6d49faaf7f/contracts/TransactionPermissionContract.sol) contract is responsible for controlling which users are allowed to perform transactions on the European Public Network. It is a permissioning contract build as described in the [OpenEthereum wiki](https://openethereum.github.io/Permissioning.html) and configured in the European Public Network [chain spec](https://github.com/evannetwork/core-config/blob/c551046dd78f307c56f529b7fa359f0c13c9c63b/core.json#L22).
 
-On evan.network no sender is allowed to perform any transaction unless permissions have been explicitly granted to it, which happens during onboarding on evan.network upon accepting the terms of use. Those permissions can be revoked in case of misbehavior like unlawful activities. This can be performed by the owner of the contract, like a ENO controlled wallet.
+On European Public Network no sender is allowed to perform any transaction unless permissions have been explicitly granted to it, which happens during onboarding on European Public Network upon accepting the terms of use. Those permissions can be revoked in case of misbehavior like unlawful activities. This can be performed by the owner of the contract, like a ENO controlled wallet.
 
 ### How it works
 
@@ -191,13 +191,13 @@ Every transaction that should be included in a block is checked for its validity
 
 The owner of the contract is allowed to perform all transactions. Every other sender needs either specific permissions assigned to him or her or the transaction falls into the scope of the `minimumPermission` property. For example calling contracts might be allowed in `minimumPermission` but creating contracts might require higher level of permissions assigned to the sender of a transaction.
 
-### Transaction Permissions Setup on evan.network
+### Transaction Permissions Setup on European Public Network
 
-One might be wondering why the [default value](https://github.com/evannetwork/smart-contracts-admin/blob/f4882bb02732a999e266257076f52e6d49faaf7f/contracts/TransactionPermissionContract.sol#L34) in the transaction permission contract is defined as `ALL`, because this would mean that every sender can perform all transactions. This was indeed the case during migration, when this permissioning system had been introduced, but if you check `minimumPermission` on evan.network, you'd get the value `0` as the result. Therefore transactions are disabled for all new accounts and enabled for every single user after accepting the terms of use.
+One might be wondering why the [default value](https://github.com/evannetwork/smart-contracts-admin/blob/f4882bb02732a999e266257076f52e6d49faaf7f/contracts/TransactionPermissionContract.sol#L34) in the transaction permission contract is defined as `ALL`, because this would mean that every sender can perform all transactions. This was indeed the case during migration, when this permissioning system had been introduced, but if you check `minimumPermission` on European Public Network, you'd get the value `0` as the result. Therefore transactions are disabled for all new accounts and enabled for every single user after accepting the terms of use.
 
 ### Managing the Transaction Permissions Contract
 
-The owner of the contract can use the following flags to control allowed transaction types per address on evan.network:
+The owner of the contract can use the following flags to control allowed transaction types per address on European Public Network:
 
 ```solidity
     uint32 public constant NONE = 0;
@@ -229,7 +229,7 @@ Which users are allowed to perform service transactions is controlled by the `se
 
 ### About Blockrewards and Bridge Contract
 
-In Ethereum based chains normally every "miner" or "validator" of a block gets a reward in form of native coins. On Proof of Authority chains based on OpenEthereum it is also possible that you not give any rewards to the authorities, instead a smart contract can manage the "minting" of these coins and can send these to the receivers on the network. On evan.network the coins are called EVEs and can be bought through a web UI via credit card or receipt. When the network received a payment by the payment provider, it triggers a transaction to the "BlockRewardContract" and this contract is called like the AuthorityRound Contract also every new block and checks if any "minting" must be done.
+In Ethereum based chains normally every "miner" or "validator" of a block gets a reward in form of native coins. On Proof of Authority chains based on OpenEthereum it is also possible that you not give any rewards to the authorities, instead a smart contract can manage the "minting" of these coins and can send these to the receivers on the network. On European Public Network the coins are called EVEs and can be bought through a web UI via credit card or receipt. When the network received a payment by the payment provider, it triggers a transaction to the "BlockRewardContract" and this contract is called like the AuthorityRound Contract also every new block and checks if any "minting" must be done.
 
 ### How it works
 
@@ -277,18 +277,18 @@ The BlockReward contract provides also several getters which give you more infor
 
 ### About
 
-The ENS (Ethereum Name Service) is used throughout evan.network to store and access human readable address names (e.g. `'profile.factory.evan'`) and resolve them into technical contract addresses or data (e.g. `'0xFEd281e8433Ca7B92333347C9a3D46545319a8ff'`).
+The ENS (Ethereum Name Service) is used throughout European Public Network to store and access human readable address names (e.g. `'profile.factory.evan'`) and resolve them into technical contract addresses or data (e.g. `'0xFEd281e8433Ca7B92333347C9a3D46545319a8ff'`).
 
-ENS service on evan.network is build upon the well known [ENS service](https://docs.ens.domains) with a few additions:
+ENS service on European Public Network is build upon the well known [ENS service](https://docs.ens.domains) with a few additions:
 
 - storing data on addresses
-- time limited addresses, buyable by evan.network users
+- time limited addresses, buyable by European Public Network users
 
 ### Storing data on addresses
 
 This follows the implementation [guidelines for resolvers](https://docs.ens.domains/contract-developer-guide/writing-a-resolver) but for clarification, keep the following things in mind:
 
-- The data is not actually stored as binary data. `content` contains a `bytes32` representation of an IPFS hash pointing to evan.network IPFS.
+- The data is not actually stored as binary data. `content` contains a `bytes32` representation of an IPFS hash pointing to European Public Network IPFS.
 - To shorten the `base58` IPFS hash, it is converted to a `Byte` array and the leading two Bytes with the multihash id are dropped. This reduces the length to 32 Bytes, which can be stored via ENS.
 - Utilizing this approach, ENS addresses can be equipped with descriptive information on how to use the contract referenced in the address, for example with a [DBCP](https://github.com/evannetwork/dbcp) description. Dapps are usually stored as [DBCP](https://github.com/evannetwork/dbcp) description and most often do not have an underlying contract, so `addr` for this ENS address is `0x` in these cases.
 
@@ -300,13 +300,13 @@ As a structure like this would not allow partners to roll out own contracts with
 
 Therefore the ownership of the domain `'.evan'` has been transferred to [`PayableRegistrar`](https://github.com/evannetwork/smart-contracts-core/blob/eff445aec0c76f810f9ebb7bab2513c652d4795f/contracts/PayableRegistrar.sol) smart contract. Only this smart contract is now able to assign ownership of subdomains of `'.evan'`, like the previously mentions `'partner123.evan'`. This can be done _time limited_ by any network use or  _permanently_ by the owner of the registrar.
 
-See section "Addresses on evan.network" for the address of the registrar, ens and well known ENS addresses on evan.network.
+See section "Addresses on European Public Network" for the address of the registrar, ens and well known ENS addresses on European Public Network.
 
 #### Time Limited Addresses
 
 To get access to a time limited address, a user can call the [`register`](https://github.com/evannetwork/smart-contracts-core/blob/eff445aec0c76f810f9ebb7bab2513c652d4795f/contracts/PayableRegistrar.sol#L72) function of the registrar.
 
-Time limited domains **and their subdomains** cannot be resolved after their expiration time has been reached. The exact time window depends on the registrar (see below) and the ENS, that resovles the addresses. On evan.network we use [`TimedENS`](https://github.com/evannetwork/smart-contracts-core/blob/eff445aec0c76f810f9ebb7bab2513c652d4795f/contracts/TimedENS.sol) for this. By default, domains are valid for 52 weeks and the TimedENS allows resolval up to 8 weeks after the expiration time has been reached, can be checked by calling `validPostExipireWindow` on the TimedENS.
+Time limited domains **and their subdomains** cannot be resolved after their expiration time has been reached. The exact time window depends on the registrar (see below) and the ENS, that resovles the addresses. On European Public Network we use [`TimedENS`](https://github.com/evannetwork/smart-contracts-core/blob/eff445aec0c76f810f9ebb7bab2513c652d4795f/contracts/TimedENS.sol) for this. By default, domains are valid for 52 weeks and the TimedENS allows resolval up to 8 weeks after the expiration time has been reached, can be checked by calling `validPostExipireWindow` on the TimedENS.
 
 Consider the following things when registering new subdomains:
 
@@ -341,15 +341,15 @@ Multisig wallets are a mechanism to allow multiple parties to act as a single en
 
 When using wallets, usually transactions are delegated through wallets. Therefore instead of calling a contract directly, a transaction is made against the wallet and the wallet then calls the other contract.  Smart contracts which have technically one owner, can be controlled by multiple owners, when ownership is assigned to a wallet and the wallet is controlled by multiple parties. Depending on the setup of the wallet, transaction can be made by any party or an agreement of multiple or all wallet owners may be required before such a transaction can be made.
 
-This allows to build important scenarios on evan.network like multi-party ownership of central contracts like the transaction permission contract. A good example is the usage of the `TransactionPermission` contract. This contract is owned by such a wallet and all wallet owners are able to grant or revoke transaction permissions if required.
+This allows to build important scenarios on European Public Network like multi-party ownership of central contracts like the transaction permission contract. A good example is the usage of the `TransactionPermission` contract. This contract is owned by such a wallet and all wallet owners are able to grant or revoke transaction permissions if required.
 
-The implementation for the MultiSig wallet used on evan.network can be found [here](https://github.com/evannetwork/smart-contracts-core/blob/eff445aec0c76f810f9ebb7bab2513c652d4795f/contracts/MultiSigWallet.sol).
+The implementation for the MultiSig wallet used on European Public Network can be found [here](https://github.com/evannetwork/smart-contracts-core/blob/eff445aec0c76f810f9ebb7bab2513c652d4795f/contracts/MultiSigWallet.sol).
 
-### Types of MultiSig Wallets on evan.network
+### Types of MultiSig Wallets on European Public Network
 
 - [`MultiSigWalletSG`](https://github.com/evannetwork/smart-contracts-core/blob/79b923d87400f10c65848fc055a7044d1ff70178/contracts/MultiSigWalletSG.sol) - a self governed (hence the "SG") wallet where all owners of the wallet can execute transaction with the wallet and configure it
 - [`MultiSigWallet`](https://github.com/evannetwork/smart-contracts-core/blob/79b923d87400f10c65848fc055a7044d1ff70178/contracts/MultiSigWallet.sol) - a wallet that has a single "admin" like owner that can configure the wallet and all owners can make transactions with it
-- [`VerificationHolder`](https://github.com/evannetwork/smart-contracts-core/blob/79b923d87400f10c65848fc055a7044d1ff70178/contracts/verifications/VerificationHolder.sol) and its inherited wallet logic implementation from [KeyHolder](https://github.com/evannetwork/smart-contracts-core/blob/79b923d87400f10c65848fc055a7044d1ff70178/contracts/verifications/KeyHolder.sol) - used as primary identities on evan.network
+- [`VerificationHolder`](https://github.com/evannetwork/smart-contracts-core/blob/79b923d87400f10c65848fc055a7044d1ff70178/contracts/verifications/VerificationHolder.sol) and its inherited wallet logic implementation from [KeyHolder](https://github.com/evannetwork/smart-contracts-core/blob/79b923d87400f10c65848fc055a7044d1ff70178/contracts/verifications/KeyHolder.sol) - used as primary identities on European Public Network
 
 ### Using the Wallets
 
@@ -404,7 +404,7 @@ These identities are based on [ERC725 v1](https://github.com/ethereum/EIPs/issue
 
 ##### User Management
 
-User management is key based in [`VerificationHolder`](https://github.com/evannetwork/smart-contracts-core/blob/79b923d87400f10c65848fc055a7044d1ff70178/contracts/verifications/VerificationHolder.sol) as it inherits from [`KeyHolder`](https://github.com/evannetwork/smart-contracts-core/blob/79b923d87400f10c65848fc055a7044d1ff70178/contracts/verifications/KeyHolder.sol). Users (addresses on evan.network) may hold one or multiple keys in an identity, the owner for example holds the keys `MANAGEMENT_KEY` and `ACTION_KEY`.
+User management is key based in [`VerificationHolder`](https://github.com/evannetwork/smart-contracts-core/blob/79b923d87400f10c65848fc055a7044d1ff70178/contracts/verifications/VerificationHolder.sol) as it inherits from [`KeyHolder`](https://github.com/evannetwork/smart-contracts-core/blob/79b923d87400f10c65848fc055a7044d1ff70178/contracts/verifications/KeyHolder.sol). Users (addresses on European Public Network) may hold one or multiple keys in an identity, the owner for example holds the keys `MANAGEMENT_KEY` and `ACTION_KEY`.
 
 Keys are usually `keccak256` hashes of account addresses. These keys may have one or multiple purposes (similar to the account having certain roles). Multiple functions for managing keys are offered in the [`KeyHolder`](https://github.com/evannetwork/smart-contracts-core/blob/79b923d87400f10c65848fc055a7044d1ff70178/contracts/verifications/KeyHolder.sol) smart contract, with the following functions being the most important ones:
 
@@ -432,17 +432,17 @@ Even if not used broadly, the `execute` function can be used to prepare transact
 
 ### Onboarding of new Users
 
-The onboarding agent is primarily used to help new users get started on evan.network. This includes
+The onboarding agent is primarily used to help new users get started on European Public Network. This includes
 
-- creating a profile and an identity on evan.network for the new user
+- creating a profile and an identity on European Public Network for the new user
 - storing that the terms of use have been accepted
-- allowing the new user to perform transactions on evan.network
-- opening a payment channel to allow the new user to store files on evan.network IPFS
-- (on testcore) provide some initial funds to start working on evan.network
+- allowing the new user to perform transactions on European Public Network
+- opening a payment channel to allow the new user to store files on European Public Network IPFS
+- (on testcore) provide some initial funds to start working on European Public Network
 
 #### Onboarding Flow
 
-When a user onboards via the [, a seed phrase is generated for the user and the user uses it to generate a local Ethereum account for evan.network. This account is then used to sign a message that is sent to the server to prove the ownership over the new account.
+When a user onboards via the [, a seed phrase is generated for the user and the user uses it to generate a local Ethereum account for European Public Network. This account is then used to sign a message that is sent to the server to prove the ownership over the new account.
 
 Then the user calls the endpoint `smart-agents/profile/create` and the server creates the user identity setup on even network, which primarily consists of the following components:
 
@@ -460,7 +460,7 @@ After this the use can prepare data to be inserted into the profile digital twin
 
 ### Faucet
 
-The onboarding agent also allows to hand out funds on evan.network testcore to allow easier developing on the test environment. For this the `smart-agents/faucet/handout` endpoint can be used.
+The onboarding agent also allows to hand out funds on European Public Network testcore to allow easier developing on the test environment. For this the `smart-agents/faucet/handout` endpoint can be used.
 
 A Gitter based chatbot can also be configured to handout funds via Gitter chats.
 
@@ -479,7 +479,7 @@ The user can then accept it and call the `smart-agents/faucet/terms-of-use/accep
 
 ## IPNS Key Management
 
-The evan.network dashboard and APIs are written in JavaScript to be displayed in the browser. To use the full power of decentralization, the JavaScript APIs and the dashboard UIs are hosted on a private IPFS network.
+The European Public Network dashboard and APIs are written in JavaScript to be displayed in the browser. To use the full power of decentralization, the JavaScript APIs and the dashboard UIs are hosted on a private IPFS network.
 
 The nature of IPFS is that when you upload a file to IPFS you receive a unique Hash of the file as result. Now if you change a single character in the file and upload it again you receive a new unique hash of the file.
 

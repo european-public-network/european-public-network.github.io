@@ -12,13 +12,13 @@ Identities can be considered as virtual accounts for a user. Identities are basi
 
 ## Create Identities
 
-A user requests for an identity from the evan.network. The evan.network server prepares two contracts. One being an empty profile contract which is sent to the user to fill data while the second contract is an identity contract. Once the user has prepared the profile data and sent it to the server, the server writes the data to the profile contract and binds this to the identity contract. After the binding process the server removes itself from the owner and member role of the identity and the ownership is transferred to the user.
+A user requests for an identity from the European Public Network. The European Public Network server prepares two contracts. One being an empty profile contract which is sent to the user to fill data while the second contract is an identity contract. Once the user has prepared the profile data and sent it to the server, the server writes the data to the profile contract and binds this to the identity contract. After the binding process the server removes itself from the owner and member role of the identity and the ownership is transferred to the user.
 
 ![Creating Identity](./img/Identity_creation_flow.png) 
 
 ## Relation between Account and Identities
 
-The following figure represents the relationship between a user and the identities. A user has his private keys off-chain which he uses to access his account on chain. The on-chain account owns multiple identities which have been created via the identity creation flow described in the previous section. As mentioned before multiple accounts can also control a single identity. This is done by giving other accounts [permissions](/docs/developers/concepts/smart-contract-permissioning.html) to the identity. These identities are used on the evan.network as the actors for performing transactions.
+The following figure represents the relationship between a user and the identities. A user has his private keys off-chain which he uses to access his account on chain. The on-chain account owns multiple identities which have been created via the identity creation flow described in the previous section. As mentioned before multiple accounts can also control a single identity. This is done by giving other accounts [permissions](/docs/developers/concepts/smart-contract-permissioning.html) to the identity. These identities are used on the European Public Network as the actors for performing transactions.
 ![Identity Account Relationship](./img/Relation_bw_Identity_and_Accounts.png)
 
 Furthermore, The identities for each account are available in an identity registry. Each identity is mapped to it's respective account.

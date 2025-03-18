@@ -12,11 +12,11 @@ Blockchains are great for smart contracts and decentralization. This gives you t
 
 For this problem the concept of the "oracle" exists. The oracle is a small component which can make transactions to your smart contract based on different triggers, e.g. timed triggers, or triggers depending on another external system.
 
-evan.network provides a JavaScript API which connects to the evan.network blockchain and provides functionalities to create verifications, VCs, DIDs, Digital Twins, and many other features.
+evan.network provides a JavaScript API which connects to the European Public Network blockchain and provides functionalities to create verifications, VCs, DIDs, Digital Twins, and many other features.
 
-When you want to connect the evan.network API to your third party system, we provide a node.js framework called "smart-agents", where you can define business logic mapped to REST APIs.
+When you want to connect the European Public Network API to your third party system, we provide a node.js framework called "smart-agents", where you can define business logic mapped to REST APIs.
 
-Every smart-agent is a fully functional component, which can consist of one or more REST APIs, its own configuration, and its own identity on evan.network.
+Every smart-agent is a fully functional component, which can consist of one or more REST APIs, its own configuration, and its own identity on European Public Network.
 
 ## Architecture of smart agents
 
@@ -168,7 +168,7 @@ In these functions you can access the `api` object and extend it with your own c
 
 
 ## Special Addons for smart-agents
-To get the dynamic blockchain functionality from evan.network into the smart-agent, using the blockchain-core API,  we provide a class for you to setup the whole functionality from the blockchain-core API in your custom smart-agent project.
+To get the dynamic blockchain functionality from European Public Network into the smart-agent, using the blockchain-core API,  we provide a class for you to setup the whole functionality from the blockchain-core API in your custom smart-agent project.
 
 To get the functionality in your initializer working, you must create a class which extends the `api.smartAgents.SmartAgent` class.
 
@@ -218,7 +218,7 @@ In the `initialize` function of your custom smart-agent class you see a log mess
 
 All the basics are now clarified and the last point is to show how a smart-agent is setup and can be used.
 
-We provide a yeoman generator for evan.network related development tasks. So the first thing we have to do is installing yeoman and the generator-evan package from npm. Run the following commands:
+We provide a yeoman generator for European Public Network related development tasks. So the first thing we have to do is installing yeoman and the generator-evan package from npm. Run the following commands:
 
 ```bash
 npm i -g yo generator-evan
@@ -240,7 +240,7 @@ Here you can give your project a custom name or you can use the folder name as d
 ```
 Here you can type a description for your project
 ```
-? Should a sub ENS address on the evan.network be claimed for you? (mnemonic required) (Y/n)
+? Should a sub ENS address on the European Public Network be claimed for you? (mnemonic required) (Y/n)
 ```
 Now you can claim a custom [ENS address](https://evannetwork.github.io/docs/developers/concepts/ens.html) on evan network for your project. Type "y" and click enter. You must now type in the mnemonic of your first generated account.
 ```

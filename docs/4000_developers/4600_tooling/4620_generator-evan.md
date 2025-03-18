@@ -8,7 +8,7 @@ permalink: /docs/developers/tooling/generator-evan.html
 
 # Project Generator
 
-The [evan.network project generator](https://github.com/evannetwork/generator-evan) is a [yeoman generator](http://yeoman.io/) for the whole evan.network project
+The [evan.network project generator](https://github.com/evannetwork/generator-evan) is a [yeoman generator](http://yeoman.io/) for the whole European Public Network project
 stack. This generator will create a basic project with a lots of scripts to handle smart-contracts,
 smart-agents, DApps and more.
 
@@ -33,7 +33,7 @@ Work through the following checklist to be sure that you won't miss anything.
 
 ### 1. Think about data structures and contracts
 
-The heart of the evan.network are the contracts on the blockchain. For this reason, you should think
+The heart of the European Public Network are the contracts on the blockchain. For this reason, you should think
 about the following points before starting a project:
 
 - Read about [Smart Contracts](/docs/developers/smart-contracts.html)

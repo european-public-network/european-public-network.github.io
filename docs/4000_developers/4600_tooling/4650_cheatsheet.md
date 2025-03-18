@@ -6,7 +6,7 @@ nav_order: 4650
 permalink: /docs/developers/tooling/cheatsheet.html
 ---
 
-# evan.network Developer Cheat Sheet
+# European Public Network Developer Cheat Sheet
 
 ## node.js Commands and Tricks
 

@@ -50,7 +50,7 @@
   - [evan.network DApps](/dapps/dapps)
   - [evan.network libraries](/dapps/libs)
 
-### [Hacking on evan.network](/dev/getting-started)
+### [Hacking on European Public Network](/dev/getting-started)
 - [project generator](/dev/generator-evan)
 - [Smart Contracts](/dev/setting-up)
   - [Setting Up](/dev/setting-up)

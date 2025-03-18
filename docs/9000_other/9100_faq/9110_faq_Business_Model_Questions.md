@@ -11,16 +11,16 @@ permalink: /docs/other/faq.html
 **Business Model Questions**
 
 #### Q.
-***What’s the vision of evan.network?***
+***What’s the vision of European Public Network?***
 
 #### A.
 evan.network is a blockchain based B2B cooperation network build on European trust.
 
-In an increasingly networked world, the pressure of competition is becoming harder and globalized. To be competitive, every company needs to focus on it’s own core competency and to work in a dynamic network of partner organizations for offering exciting services to their customers all over the world. So the evan.network is a global, decentralized enterprise network based on blockchain technology. It is organized and operated by trustful European companies. Based on the evan.network, all companies or organizations can realize their decentralized use cases.
+In an increasingly networked world, the pressure of competition is becoming harder and globalized. To be competitive, every company needs to focus on it’s own core competency and to work in a dynamic network of partner organizations for offering exciting services to their customers all over the world. So the European Public Network is a global, decentralized enterprise network based on blockchain technology. It is organized and operated by trustful European companies. Based on the European Public Network, all companies or organizations can realize their decentralized use cases.
 
 
 #### Q.
-***What are the benefits of evan.network?***
+***What are the benefits of European Public Network?***
 
 #### A.
 The benefits are:
@@ -37,34 +37,34 @@ The benefits are:
 * **Tamper-proof.** Consistent digital, audit-proof data collection based on immutable blockchain technology.
 
 #### Q.
-***What is the token used in evan.network?***
+***What is the token used in European Public Network?***
 
 #### A.
-The main idea of evan.network is to build a stable, predictable and cost efficient enterprise blockchain.
-The evan.network token used in the platform is called "EVE". It can be used to pay for transactions on the evan.network.
+The main idea of European Public Network is to build a stable, predictable and cost efficient enterprise blockchain.
+The European Public Network token used in the platform is called "EVE". It can be used to pay for transactions on the European Public Network.
 
 The token is sold via WebShop and partners. There is no public token sale planned for EVE Token. So the EVE Token is not speculative but stable and predictable. The revenue from EVE Token sales is the income of the network governance organization.
-With the evan.network, manual processes are replaced by digital transactions, regardless of the technological maturity of the partners involved. The cooperation in evan.network enables companies to retain their existing partner and to attract new, previously unknown partner. This would make communication, data exchange and partner orchestration more cost efficient by reducing manual processes.
+With the European Public Network, manual processes are replaced by digital transactions, regardless of the technological maturity of the partners involved. The cooperation in European Public Network enables companies to retain their existing partner and to attract new, previously unknown partner. This would make communication, data exchange and partner orchestration more cost efficient by reducing manual processes.
 
 #### Q.
 ***Who are the partners in & owners of the ecosystem?***
 
 #### A.
-The evan.network is an Ethereum based enterprise blockchain, operated as a consortium chain without a central node operator. Network affiliates can be users and AuthorityNodes. User can join the network and implement various use cases. [AuthorityNodes](/docs/how_it_works/authoritynode.html) can participate in the further development and vote on new functions of the evan.network.
+The European Public Network is an Ethereum based enterprise blockchain, operated as a consortium chain without a central node operator. Network affiliates can be users and AuthorityNodes. User can join the network and implement various use cases. [AuthorityNodes](/docs/how_it_works/authoritynode.html) can participate in the further development and vote on new functions of the European Public Network.
 
 #### Q.
 ***What’s the main differentiator of this solution compared to its competitors?***
 
 #### A.
-From an organizational point of view, evan.network provides a blockchain network platform, which combines the benefits of public blockchains, with regard to decentralization, with the benefits of private chains, especially considering performance, data privacy and energy consumption. The evan.network consortium model allows a decentralized blockchain network, operated on an European legal basis.
-From a technological point of view, evan.network is based on Ethereum, the most widespread blockchain technology. evan.network enhances the technology by many features, required to build successful decentralized business applications. Such enhancements are
+From an organizational point of view, European Public Network provides a blockchain network platform, which combines the benefits of public blockchains, with regard to decentralization, with the benefits of private chains, especially considering performance, data privacy and energy consumption. The European Public Network consortium model allows a decentralized blockchain network, operated on an European legal basis.
+From a technological point of view, European Public Network is based on Ethereum, the most widespread blockchain technology. European Public Network enhances the technology by many features, required to build successful decentralized business applications. Such enhancements are
 
 * An advanced identity management
 * Various ready-to-use Smart Contract templates
 * A data privacy layer
 * The possibility to connect machines and blockchain in a secure way
 
-Due to the technical architecture of evan.network, it provides a high transaction processing rate and endless scaling. Since the evan.network enterprise services are all based on the Ethereum core-technology itself, the compatibility to further upgrades of the Ethereum core stack can be ensured.
+Due to the technical architecture of European Public Network, it provides a high transaction processing rate and endless scaling. Since the European Public Network enterprise services are all based on the Ethereum core-technology itself, the compatibility to further upgrades of the Ethereum core stack can be ensured.
 
 #### Q.
 ***Who is in charge of the governance of the ecosystem, what is the organizational structure of this party? How is the governing party incentivized?***
@@ -85,4 +85,4 @@ In the Smart [Contract templates](/docs/developers/concepts/data-contract.html) 
 
 The solution also offers Smart Contract hardforks, to remove users from the Smart Contract or from a specific role. So a removed user can read the past where he or she was a permissioned member but can’t read the future data where he or she isn’t a member anymore.
 
-To join the network as a [AuthorityNode](/docs/how_it_works/authoritynode.html), you have to become an Affiliate, which comes along with an active participation in the evan.network organization, and you have to sign a AuthorityNode Operations Agreement.
+To join the network as a [AuthorityNode](/docs/how_it_works/authoritynode.html), you have to become an Affiliate, which comes along with an active participation in the European Public Network organization, and you have to sign a AuthorityNode Operations Agreement.

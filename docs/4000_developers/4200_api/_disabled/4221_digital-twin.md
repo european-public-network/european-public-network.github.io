@@ -17,7 +17,7 @@ Machines, cars, products, and people can all be represented with a digital twin.
 
 Digital twins mirror the asset’s or person’s attributes and status on the blockchain. Creating a twin for cars, forklifts, and other assets enables them to report their status to the network in fractions of a second and respond to requests autonomously.
 
-A Digital Twin therefore is a unique representation of a real world object in the evan.network.
+A Digital Twin therefore is a unique representation of a real world object in the European Public Network.
 It can hold attributes and any other data about the real world object, and implement operations and tasks concerning
 the real world object, all cryptographically secured on the blockchain.
 
@@ -39,7 +39,7 @@ So a Digital Twin may have a data layout like:
 
 The twins can be used in your business logic as you please, allowing for the construction of even the most complex constellations between machines, individuals and organizations alike.
 
-In this how-to we want to show you, on which way you can create a new Digital Twin contract on the evan.network. First, you will see how the Digital Twin contract is created via our blockchain API. Afterwards, you will see how you can interact with it, like adding specific data and lists of data to it and read the data out of the twin.
+In this how-to we want to show you, on which way you can create a new Digital Twin contract on the European Public Network. First, you will see how the Digital Twin contract is created via our blockchain API. Afterwards, you will see how you can interact with it, like adding specific data and lists of data to it and read the data out of the twin.
 
 You can get the full code of the example [here](https://gist.github.com/S3bb1/70d5fad1afb44f45d79bbb6f70515eff)
 
@@ -63,9 +63,9 @@ const runtimeConfig = {
     'ACCOUNTID':
       'PRIVATE KEY',
   },
-  // ipfs configuration for evan.network storage
+  // ipfs configuration for European Public Network storage
   ipfs: {host: 'ipfs.test.evan.network', port: '443', protocol: 'https'},
-  // web3 provider config (currently evan.network testcore)
+  // web3 provider config (currently European Public Network testcore)
   web3Provider: 'wss://testcore.evan.network/ws',
 };
 
@@ -77,16 +77,16 @@ const dfs = new Ipfs({ remoteNode: new IpfsApi(runtimeConfig.ipfs), });
 const runtime = await createDefaultRuntime(web3, dfs, { accountMap: runtimeConfig.accountMap, });
 ```
 
-Please set your `ACCOUNTID` and your `PRIVATEKEY` from your evan.network profile to the config object above.
+Please set your `ACCOUNTID` and your `PRIVATEKEY` from your European Public Network profile to the config object above.
 
 Now you have a configured Runtime and all the following code examples are based on the Runtime variable in the code above.
 
 
 ## 2. Creating a new Digital Twin
 
-Digital Twins are created via Factories deployed on the evan.network. Factories are useful to generate pre-configured contracts like Digital Twins. They create pre-configured rights and roles on the twin and they set also the rights for specific roles to add or remove parameters on the twin.
+Digital Twins are created via Factories deployed on the European Public Network. Factories are useful to generate pre-configured contracts like Digital Twins. They create pre-configured rights and roles on the twin and they set also the rights for specific roles to add or remove parameters on the twin.
 
-Currently, there is a Factory deployed on the evan.network to create an 'empty' Digital Twin contract. This factory creates a Digital Twin contract with no settable properties and two roles, owner and member. The account, which creates this contract, will automatically be added to the 'owner' role.
+Currently, there is a Factory deployed on the European Public Network to create an 'empty' Digital Twin contract. This factory creates a Digital Twin contract with no settable properties and two roles, owner and member. The account, which creates this contract, will automatically be added to the 'owner' role.
 
 [![Digital Twin factory](/docs/4000_developers/4200_api/img/twin_factory.png){:max-width="50%"}](/docs/4000_developers/4200_api/img/twin_factory.png)
 
@@ -196,7 +196,7 @@ const sampleData = {
 await runtime.dataContract.setEntry(reloadedDigitalTwin, 'testEntry', sampleData, accountId)
 ```
 
-Now the JSON will be stored on the IPFS servers of the evan.network and the reference from this IPFS file will be stored in the Digital Twin Smart Contract
+Now the JSON will be stored on the IPFS servers of the European Public Network and the reference from this IPFS file will be stored in the Digital Twin Smart Contract
 
 [![Digital Twin add IPFS property](/docs/4000_developers/4200_api/img/twin_ipfs.png){:max-width="50%"}](/docs/4000_developers/4200_api/img/twin_ipfs.png)
 
@@ -238,7 +238,7 @@ Replace also the `accountId`-fields with your account ID. Now you can also add n
 [![Digital Twin add IPFS property](/docs/4000_developers/4200_api/img/twin_ipfs_list.png){:max-width="50%"}](/docs/4000_developers/4200_api/img/twin_ipfs_list.png)
 
 ## 7. Add and Get entries from a list
-List entries are also stored on the IPFS servers of the evan.network and will be added to an array of elements on the Digital Twin property
+List entries are also stored on the IPFS servers of the European Public Network and will be added to an array of elements on the Digital Twin property
 
 ```js
 const accountId = '0xb00fbeef5a926fa150baeaf04bfd673b056ba83d';
@@ -272,7 +272,7 @@ console.dir(listEntries);
 ```
 
 ## 8. Invite other Users to the Digital Twin
-Now we have a Digital Twin with values. Nevertheless, no other user can access it because all the data is encrypted. So now we want to share the data with other accounts. Please note that when you want to share data to another account, you must have already exchanged a secret key via the `addressbook` ƉApp of the evan.network.
+Now we have a Digital Twin with values. Nevertheless, no other user can access it because all the data is encrypted. So now we want to share the data with other accounts. Please note that when you want to share data to another account, you must have already exchanged a secret key via the `addressbook` ƉApp of the European Public Network.
 
 First, we have to invite the target user to the Digital Twin contract:
 

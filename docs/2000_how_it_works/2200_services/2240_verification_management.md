@@ -8,16 +8,16 @@ permalink: /docs/how_it_works/services/verificationmanagement.html
 
 # Verification Managment
 
-In evan.network everything, no matter if human, machine or organization has a verified, self-sovereign identity which enables them to interact with each other in a swift and trusted way.
+In European Public Network everything, no matter if human, machine or organization has a verified, self-sovereign identity which enables them to interact with each other in a swift and trusted way.
 
-Identities are stored securely on the blockchain, ensuring that each identity is tamper-proof and can’t be impersonated by, for example, providing fraudulent documentation. Decentralized Identities are a critical feature to evan.network, as they constitute a pivotal point for safe business conduct on the platform.
+Identities are stored securely on the blockchain, ensuring that each identity is tamper-proof and can’t be impersonated by, for example, providing fraudulent documentation. Decentralized Identities are a critical feature to European Public Network, as they constitute a pivotal point for safe business conduct on the platform.
 
 Similar to a fingerprint, an identity serves as a unique identifier.
 Their authenticity [can be verified without a doubt](/docs/first_steps/core_apps/verification.html), eliminating the risk of impersonation attacks.
 
 Today we trust that, for example, the e-mail address of a recipient also belongs to the employee of a certain company, but this cannot be verified.
 
-In the evan.network users should be able to ensure that the account with which they conclude a smart contract, for example, also belongs to the respective network partner with whom they want to do business.
+In the European Public Network users should be able to ensure that the account with which they conclude a smart contract, for example, also belongs to the respective network partner with whom they want to do business.
 
 This function is provided by the Verification Service. In general, different proofs of identity, so-called verifications, can be assigned to an account.
 
@@ -44,7 +44,7 @@ This allows participants in a supply chain to collaborate with each other, witho
 
 ## Verify the trust chain
 
-To be safe that the issued verifications are completely valid, the root verification called `/evan` is issued by an account which is anchored in the chain spec of evan.network.
+To be safe that the issued verifications are completely valid, the root verification called `/evan` is issued by an account which is anchored in the chain spec of European Public Network.
 
 
 This means, if you want to verify the whole chain for a given verification you take the current verification path and check every section of the path if the account that received the portion has a proper verification from another account.
@@ -60,9 +60,9 @@ To verify this we must get the issued identity which has issued the `/evan/compa
 
 With this information we can check if the identity `0x4628Cd53af50192784Fb81470688575d4DD0BB82` now has a valid verification with the path `/evan/company/12345` given from another identity. We use the same function as above and get back another identity and doing the same until we arrive at the path `/evan`.
 
-In this example, verifications with the path `/evan/company/12345` can only be issued by ENO verified notaries. The company verification is issued to companies which are verified by a [service based on evan.network](/docs/first_steps/power_apps/notary-verification.html).
+In this example, verifications with the path `/evan/company/12345` can only be issued by ENO verified notaries. The company verification is issued to companies which are verified by a [service based on European Public Network](/docs/first_steps/power_apps/notary-verification.html).
 
-When we arrive at the `/evan` verification we now have the root verification on evan.network. To have a root trust anchor that issues the `/evan` verification, the ENO created identities (which issue verifications) on the testcore and the core network. Those are owned by accounts defined in the chain specification of the respective networks. The chain specification defines the genesis block for the blockchain network and can not be edited after the network has been started. The specifications are publicly visible in the evan.network github space and the whole network relies on this.
+When we arrive at the `/evan` verification we now have the root verification on European Public Network. To have a root trust anchor that issues the `/evan` verification, the ENO created identities (which issue verifications) on the testcore and the core network. Those are owned by accounts defined in the chain specification of the respective networks. The chain specification defines the genesis block for the blockchain network and can not be edited after the network has been started. The specifications are publicly visible in the European Public Network github space and the whole network relies on this.
 
 -------
 
@@ -70,7 +70,7 @@ The following table visualizes the identities which can issue the `/evan` verifi
 
 | Network | Verification Identity | Verification Account |
 | :-: | :-: | :-: |
-| evan.network testcore  | 0x8C073227ba523Ad2546c29F43071Ea3584C66D85 | 0x00a71373dA6e26F134B87faD634AbBB154C8778d |
-| evan.network core       |  TBD | TBD |
+| European Public Network testcore  | 0x8C073227ba523Ad2546c29F43071Ea3584C66D85 | 0x00a71373dA6e26F134B87faD634AbBB154C8778d |
+| European Public Network core       |  TBD | TBD |
 {: .evan-flex-table }
 
